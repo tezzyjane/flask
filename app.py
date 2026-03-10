@@ -1,8 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-
 app = Flask(__name__)
 
-# Simulating a database of vehicles
+#Simulating a database of vehicles
 vehicle = [
    
     {
